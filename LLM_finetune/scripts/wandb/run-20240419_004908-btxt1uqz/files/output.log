@@ -1,0 +1,26 @@
+  0%|                                                                                                                                     | 0/2091 [00:00<?, ?it/s]Traceback (most recent call last):
+  File "/workspace/storage/LLM_testing/scripts/../src/src/train.py", line 84, in <module>
+    train()
+  File "/workspace/storage/LLM_testing/scripts/../src/src/train.py", line 78, in train
+    trainer.train()
+  File "/workspace/storage/finetune/envt/lib/python3.10/site-packages/transformers/trainer.py", line 1539, in train
+    return inner_training_loop(
+  File "/workspace/storage/finetune/envt/lib/python3.10/site-packages/transformers/trainer.py", line 1869, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs)
+  File "/workspace/storage/finetune/envt/lib/python3.10/site-packages/transformers/trainer.py", line 2772, in training_step
+    loss = self.compute_loss(model, inputs)
+  File "/workspace/storage/finetune/envt/lib/python3.10/site-packages/transformers/trainer.py", line 2795, in compute_loss
+    outputs = model(**inputs)
+  File "/workspace/storage/finetune/envt/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/workspace/storage/finetune/envt/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/workspace/storage/finetune/envt/lib/python3.10/site-packages/deepspeed/utils/nvtx.py", line 15, in wrapped_fn
+    ret_val = func(*args, **kwargs)
+  File "/workspace/storage/finetune/envt/lib/python3.10/site-packages/deepspeed/runtime/engine.py", line 1852, in forward
+    loss = self.module(*inputs, **kwargs)
+  File "/workspace/storage/finetune/envt/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/workspace/storage/finetune/envt/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1561, in _call_impl
+    result = forward_call(*args, **kwargs)
+TypeError: LlamaForCausalLM.forward() got an unexpected keyword argument 'label'

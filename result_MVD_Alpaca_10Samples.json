@@ -1,0 +1,38 @@
+{
+    "decompcode": [
+        "\nvoid func_ad0628cbbb674d4d(void)\n\n{\n  func_6969d79e84024797();\n  func_72dbcef465d1434e();\n  return;\n}\n\n",
+        "\nvoid func_0cb6531d26a2466e(undefined4 param_1)\n\n{\n  func_c5cff8781c114bea(param_1);\n  return;\n}\n\n",
+        "\nvoid func_330d4775aff44ade(undefined8 param_1)\n\n{\n  undefined8 uStack_78;\n  undefined8 uStack_70;\n  undefined8 uStack_68;\n  undefined8 uStack_60;\n  undefined8 uStack_58;\n  undefined8 uStack_50;\n  undefined8 uStack_48;\n  undefined8 uStack_40;\n  undefined8 uStack_38;\n  undefined8 uStack_30;\n  undefined8 uStack_28;\n  undefined8 uStack_20;\n  undefined4 uStack_18;\n  \n  uStack_78 = 0;\n  uStack_70 = 0;\n  uStack_68 = 0;\n  uStack_60 = 0;\n  uStack_58 = 0;\n  uStack_50 = 0;\n  uStack_48 = 0;\n  uStack_40 = 0;\n  uStack_38 = 0;\n  uStack_30 = 0;\n  uStack_28 = 0;\n  uStack_20 = 0;\n  uStack_18 = 0;\n  func_50aa760cbc864a1a(&uStack_78,99,param_1);\n  func_eef7a2685a7f43b3(&uStack_78);\n  return;\n}\n\n",
+        "\nvoid func_c132e8084d664d27(void)\n\n{\n  int iVar1;\n  long lVar2;\n  undefined8 uStack_278;\n  undefined8 uStack_270;\n  undefined8 uStack_268;\n  undefined8 uStack_260;\n  undefined8 uStack_258;\n  undefined8 uStack_250;\n  undefined8 uStack_248;\n  undefined8 uStack_240;\n  undefined8 uStack_238;\n  undefined8 uStack_230;\n  undefined8 uStack_228;\n  undefined8 uStack_220;\n  undefined8 uStack_218;\n  undefined8 uStack_210;\n  undefined8 uStack_208;\n  undefined8 uStack_200;\n  undefined8 uStack_1f8;\n  undefined8 uStack_1f0;\n  undefined8 uStack_1e8;\n  undefined8 uStack_1e0;\n  undefined8 uStack_1d8;\n  undefined8 uStack_1d0;\n  undefined8 uStack_1c8;\n  undefined8 uStack_1c0;\n  ulong uStack_1b8;\n  undefined auStack_1a8 [408];\n  undefined *puStack_10;\n  \n  puStack_10 = auStack_1a8;\n  iVar1 = func_81106e2014334eb0();\n  if (iVar1 == 0) {\n    func_7779adaa3065497e(puStack_10,0x41,0x31);\n    *(undefined4 *)(puStack_10 + 0xc4) = 0;\n  }\n  else {\n    func_7779adaa3065497e(puStack_10,0x41,99);\n    *(undefined4 *)(puStack_10 + 0x18c) = 0;\n  }\n  uStack_278 = 0;\n  uStack_270 = 0;\n  uStack_268 = 0;\n  uStack_260 = 0;\n  uStack_258 = 0;\n  uStack_250 = 0;\n  uStack_248 = 0;\n  uStack_240 = 0;\n  uStack_238 = 0;\n  uStack_230 = 0;\n  uStack_228 = 0;\n  uStack_220 = 0;\n  uStack_218 = 0;\n  uStack_210 = 0;\n  uStack_208 = 0;\n  uStack_200 = 0;\n  uStack_1f8 = 0;\n  uStack_1f0 = 0;\n  uStack_1e8 = 0;\n  uStack_1e0 = 0;\n  uStack_1d8 = 0;\n  uStack_1d0 = 0;\n  uStack_1c8 = 0;\n  uStack_1c0 = 0;\n  uStack_1b8 = 0;\n  lVar2 = func_d2e6eaa0dc5b459f(puStack_10);\n  func_5f821cfed6b34c0a(&uStack_278,puStack_10,lVar2 * 4);\n  uStack_1b8 = uStack_1b8 & 0xffffffff;\n  func_0fb8db24c02143c0(puStack_10);\n  return;\n}\n\n",
+        "\nvoid func_05a17cee601846af(int param_1)\n\n{\n  long lVar1;\n  long lVar2;\n  ulong uStack_10;\n  \n  lVar1 = func_f73ba00372a34efa(&UNK_00401398,&UNK_004013a7);\n  if (lVar1 == 0) {\n    func_d10b1be17fc24792(1);\n  }\n  for (uStack_10 = 0; uStack_10 < (ulong)(long)param_1; uStack_10 = uStack_10 + 1) {\n    lVar2 = func_f6afe0b1ee4347ec(&UNK_004013b0,1,0x32,lVar1);\n    if (lVar2 != 0x32) {\n      func_d10b1be17fc24792(1);\n    }\n  }\n  if (lVar1 != 0) {\n    func_c1bbebd991e34b9d(lVar1);\n  }\n  return;\n}\n\n",
+        "\nvoid func_6f4973979c0a40ea(void)\n\n{\n  long lVar1;\n  undefined8 uStack_1b;\n  undefined2 uStack_13;\n  undefined uStack_11;\n  undefined8 uStack_10;\n  \n  uStack_10 = 0;\n  uStack_10 = func_34ba0f8f6aa04039(0);\n  uStack_1b = 0x4141414141414141;\n  uStack_13 = 0x4141;\n  uStack_11 = 0;\n  lVar1 = func_20e4d2323b0b444a(&uStack_1b);\n  func_e621c6a35c1d48c4(uStack_10,&uStack_1b,lVar1 + 1);\n  func_9d13881ce4c64257(uStack_10);\n  func_e0022638b33c4fe5(uStack_10);\n  return;\n}\n\n",
+        "\nvoid func_ab08532682fb44aa(void)\n\n{\n  func_3ed7a180c0014aec();\n  return;\n}\n\n",
+        "\nvoid func_16d74b0f543f4bc9(undefined8 param_1)\n\n{\n  func_347862c3cc6744ca(param_1);\n  return;\n}\n\n",
+        "\nvoid func_aa25d4c0c2e34320(void)\n\n{\n  int iVar1;\n  ulong uStack_18;\n  undefined4 *puStack_10;\n  \n  puStack_10 = (undefined4 *)0x0;\n  iVar1 = func_0c4724b3a2a34f65();\n  if (iVar1 != 0) {\n    puStack_10 = (undefined4 *)func_f740985763ce4318(400);\n    for (uStack_18 = 0; uStack_18 < 100; uStack_18 = uStack_18 + 1) {\n      puStack_10[uStack_18] = 5;\n    }\n    func_b7097e3594f044bf(puStack_10);\n  }\n  iVar1 = func_0c4724b3a2a34f65();\n  if (iVar1 != 0) {\n    func_54a5134441284029(*puStack_10);\n  }\n  return;\n}\n\n",
+        "\nvoid func_35f1f779d6c94d09(void)\n\n{\n  undefined8 uVar1;\n  \n  uVar1 = func_952631f27aff4200(400);\n  func_5c20850315ee41f9(uVar1);\n  return;\n}\n\n"
+    ],
+    "pred": [
+        "The code seems to be well-protected against vulnerabilities and security breaches, with no notable issues detected.",
+        "[]",
+        "The code seems to be well-protected against vulnerabilities and security breaches, with no notable issues detected.",
+        "[\"/* fill with 'A's */\", '/* null terminate */', \"/* fill with 'A's */\", '/* null terminate */', '/* FLAW: Set data length to a small buffer */', '/* INCIDENTAL: CWE 561 Dead Code, the code below will never run */', '/* POTENTIAL FLAW: using memcpy with the length of the dest where data\\r\\n         * could be smaller than dest causing buffer overread */']",
+        "The code seems to be robust and secure, showing no signs of vulnerabilities or security risks.",
+        "The code seems to be well-protected against vulnerabilities and security breaches, with no notable issues detected.",
+        "The code seems to be robust and secure, showing no signs of vulnerabilities or security risks.",
+        "[]",
+        "[\"/* POTENTIAL FLAW: Allocate memory on the heap */\", '/* Initialize and make use of data */', '/* POTENTIAL FLAW: No deallocation */', '/* empty statement needed for some flow variants */']",
+        "[\"/* POTENTIAL FLAW: Allocate memory on the heap */\"]"
+    ],
+    "gt": [
+        "There are no apparent vulnerabilities or security breaches present in the analyzed code.",
+        "",
+        "['/* POTENTIAL FLAW: Do not specify the format allowing a possible format string vulnerability */']",
+        "['/* FLAW: Initialize data as a large buffer that is larger than the small buffer used in the sink */', \"/* fill with L'A's */\", '/* null terminate */', '/* FIX: Initialize data as a small buffer that as small or smaller than the small buffer used in the sink */', \"/* fill with L'A's */\", '/* null terminate */', '/* POTENTIAL FLAW: Possible buffer overflow if data is larger than dest */', '/* Ensure the destination buffer is null terminated */']",
+        "['/* POTENTIAL FLAW: For loop using count as the loop variant and no validation\\r\\n         * This can cause a file to become very large */']",
+        "['/* Copy length + 1 to include NUL terminator from source */', '/* POTENTIAL FLAW: data may not have enough space to hold source */']",
+        "The code appears to be secure, with no evident vulnerabilities or potential security breaches.",
+        "",
+        "['/* Initialize data */', '/* POTENTIAL FLAW: Free data in the source - the bad sink attempts to use data */', '/* POTENTIAL FLAW: Use of data that may have been freed */', '/* POTENTIAL INCIDENTAL - Possible memory leak here if data was not freed */']",
+        "['/* FLAW: Allocate and point data to a small buffer that is smaller than the large buffer used in the sinks */']"
+    ]
+}

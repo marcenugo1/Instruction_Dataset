@@ -1,0 +1,23 @@
+name: env
+channels:
+  - pytorch
+  - nvidia
+  - anaconda
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8
+  - pytorch
+  - torchvision
+  - torchaudio
+  - cudatoolkit=11.8
+  - git
+  - git-lfs
+  - pip
+  - pip:
+    - transformers
+    - sentencepiece
+    - datasets
+    - accelerate
+    - deepspeed
+    - protobuf==3.20

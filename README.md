@@ -14,7 +14,7 @@ Instructions to install libraries using *requirements.txt* file.
 pip install -r requirements.txt
 ```
 #### Datasets 
-Dataset splits for test and training and the CSV files can be downloaded from this google drive link: https://drive.google.com/file/d/1rg8L7qxcs1qwg58CTxbyDV7Z9BTQZAbH/view?usp=sharing
+Dataset splits for test and training and the CSV files can be downloaded from the google drive submitted to canvas. 
 ### Tasks:
 1. Instruction-Based Dataset Generation:
 a.Select any non-instruction-based dataset from a previously available source in NLP.
